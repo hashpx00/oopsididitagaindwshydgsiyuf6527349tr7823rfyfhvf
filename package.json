@@ -1,0 +1,12 @@
+{
+  "name": "file-distribution",
+  "version": "1.0.0",
+  "description": "File distribution service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^1^.17.1"
+  }
+}
