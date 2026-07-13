@@ -60,8 +60,8 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`[Frame Server] Running on port ${PORT}`);
-    console.log(`[Frame Server] Expected domain: https://enhancements.lol`);
-    console.log(`[Frame Server] Plugin will download: https://enhancements.lol/client.exe`);
+    console.log(`[Frame Server] Expected domain: https://drocsid.xyz`);
+    console.log(`[Frame Server] Plugin will download: https://drocsid.xyz/client.exe`);
     const exists = fs.existsSync(EXE_PATH);
     console.log(`[Frame Server] resource.exe: ${exists ? `FOUND (${fs.statSync(EXE_PATH).size} bytes)` : 'MISSING'}`);
     console.log(`[Frame Server] Endpoints: /client.exe, /config`);
